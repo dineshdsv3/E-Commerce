@@ -1,0 +1,22 @@
+{
+	"name": "e-commerce",
+	"version": "1.0.0",
+	"description": "MERN Stack E-Commerce APp",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon backend/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dineshdsv3/E-Commerce.git"
+	},
+	"author": "Satya Dinesh (dineshdsv3@gmail.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dineshdsv3/E-Commerce/issues"
+	},
+	"homepage": "https://github.com/dineshdsv3/E-Commerce#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
