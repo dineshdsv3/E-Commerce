@@ -1,5 +1,8 @@
 const errors = {
-	PRODUCT_NOT_FOUND: 'Product Not Found',
+	ProductError: {
+		message: 'ACN_01',
+		ErrorDescription: 'Product Not Found',
+	},
 };
 
 export default errors;

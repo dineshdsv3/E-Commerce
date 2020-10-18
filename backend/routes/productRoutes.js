@@ -27,7 +27,7 @@ router.get(
 			res.send(product);
 		} else {
 			res.status(404);
-			throw new Error(errors.PRODUCT_NOT_FOUND);
+			throw new Error(errors.ProductError.ErrorDescription);
 		}
 	})
 );
