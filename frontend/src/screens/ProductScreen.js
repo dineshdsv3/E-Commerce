@@ -8,7 +8,7 @@ import Loader from '../components/Loader';
 import Message from '../components/Message';
 
 const ProductScreen = ({ history, match }) => {
-	const [qty, setQty] = useState(0);
+	const [qty, setQty] = useState(1);
 
 	// We can get Params using props.match in the component
 	// const product = products.find((p) => p._id === match.params.id);
